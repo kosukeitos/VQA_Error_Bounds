@@ -1,13 +1,4 @@
-import pandas as pd
-import scipy.linalg
-import scipy.optimize
-import matplotlib.pyplot as plt
 import numpy as np
-import time
-import random
-import itertools
-
-import pickle
 
 from qulacs import QuantumState
 from qulacs.state import inner_product
@@ -23,7 +14,6 @@ from qulacs.gate import T,Tdag
 from qulacs.gate import RX,RY,RZ
 from qulacs.gate import CNOT, CZ, SWAP
 from qulacs import Observable, PauliOperator
-import math
 from qulacs.gate import DephasingNoise,DepolarizingNoise,TwoQubitDepolarizingNoise
 
 ###################### ALT XYZ rotation per layer ##################################
