@@ -6,13 +6,13 @@ The purpose of this repository is to provide the code and instructions for repro
 
 ## Files
 
-- `Error_bounds.ipynb`: a Jupyter notebook that provides a code tutorial for how to compute and use our bounds.
+- [`Error_bounds.ipynb`](https://github.com/kosukeitos/VQA_Error_Bounds/blob/main/Error_bounds.ipynb): a Jupyter notebook that provides a code tutorial for how to compute and use our bounds.
 - `error_bounds.py`: a python module for computing the upper and lower bounds of the minimization error in VQAs.
 - `ALT_circuit.py`: a python module that defines functions to produce quantum circuits used in our simulations
 
 ## Usage
 
-To use the code, you can either run the `Error_bounds.ipynb` notebook or import the `error_bounds` module into your own code. The notebook provides a step-by-step tutorial for computing and using our bounds, while the `error_bounds` module contains the functions for computing the bounds.
+To use the code, you can either run the notebook [`Error_bounds.ipynb`](https://github.com/kosukeitos/VQA_Error_Bounds/blob/main/Error_bounds.ipynb) or import the `error_bounds` module into your own code. The notebook provides a step-by-step tutorial for computing and using our bounds, while the `error_bounds` module contains the functions for computing the bounds.
 
 In `error_bounds.py`, we define two functions `rough_LB` and `rough_UB` for computing rough lower bounds and upper bounds, respectively. 
 Please read the source file or the notebook for the details of using these functions.
