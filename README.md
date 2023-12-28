@@ -53,4 +53,4 @@ Requirements for `ALT_circuit.py`:
 
 If you use this code in your research, please cite our paper:
 
-K. Ito, W. Mizukami, and K. Fujii, "Universal noise-precision relations in variational quantum algorithms," arXiv:2106.03390 (2021).
+K. Ito, W. Mizukami, and K. Fujii, "Universal noise-precision relations in variational quantum algorithms," Phys. Rev. Research 5, 023025 (2023).
